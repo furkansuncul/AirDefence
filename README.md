@@ -3,6 +3,9 @@ ser = serial.Serial('COM3', 9600)
 
 
 Other than that, here is the Arduino code:
+
+```markdown
+
 const int motorPin1 = 3;  // Motor 1 forward  
 const int motorPin2 = 4;  // Motor 1 backward  
 const int motorPin3 = 5;  // Motor 2 forward  
@@ -63,8 +66,8 @@ void loop() {
                 break;  
         }  
     }  
-}  
-
+}
+```
 
 After writing this code in the Arduino IDE, you should adjust the movement of motorPin values (LOW or HIGH) according to your machine's specific configuration.
 
